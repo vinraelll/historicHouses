@@ -1,0 +1,34 @@
+.our-flats {
+  background-color: #242B33;
+}
+
+.our-flats__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-flats__title {
+  margin-bottom: 100px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--gold);
+}
+
+.our-flats__item {
+  position: relative;
+  max-width: 535px;
+  margin-bottom: 30px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.our-flats__desc {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}

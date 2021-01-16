@@ -1,0 +1,43 @@
+.advantages {
+  background-color: #242B33;
+}
+
+.advantages__inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0 120px;
+  text-align: center;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: -30%;
+    transform: translateY(-20%);
+    width: 300px;
+    height: 310px;
+    background-image: url('/images/number2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__item {
+    max-width: 194px; 
+  }
+
+  &__img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 55px;
+  }
+
+  &__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+
+
+
